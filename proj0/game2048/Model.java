@@ -5,7 +5,7 @@ import java.util.Observable;
 
 
 /** The state of a game of 2048.
- *  @author TODO: YOUR NAME HERE
+ *  @author GuyuLihua
  */
 public class Model extends Observable {
     /** Current contents of the board. */
@@ -121,7 +121,7 @@ public class Model extends Observable {
         return changed;
     }
 
-    /** Checks if the game is over and sets the gameOver variable
+   /** Checks if the game is over and sets the gameOver variable
      *  appropriately.
      */
     private void checkGameOver() {
